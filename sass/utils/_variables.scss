@@ -1,0 +1,28 @@
+:root {
+    /* text colors */
+    --color-focus: #2196f3;
+    --color-text-darck: #212121;
+    --color-text-light: #757575;
+    --color-text-white: #ffffff;
+  
+    /* Bg colors */
+    --color-bg-black: #000;
+    --color-bg-darck: #2f303a;
+    --color-bg-light: #f5f4fa;
+    --color-bg-white: #ffffff;
+  
+    /* others */
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    // fonts
+    --primary-font:'Roboto';
+    --secondary-font: 'Raleway';
+  }
+
+
+  $indent: 30px;
+  $about-items: 4;
+  $work-items: 3;
+  $team-items: 4;
+  $clients-items: 6;
+  $portfolio-work-items: 3;

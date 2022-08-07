@@ -1,0 +1,31 @@
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form__input {
+  padding: 14px;
+  padding-left: 16px;
+  @include fonts(16px, 20px);
+  background-color: var(--color-bg-darck);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+
+  &--size {
+    width: 358px;
+    margin-right: 12px;
+  }
+}
+
+.subscribe-form__btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 28px;
+  gap: 10px;
+}
+
+.subscribe-form__icon {
+  fill: var(--color-bg-white);
+}

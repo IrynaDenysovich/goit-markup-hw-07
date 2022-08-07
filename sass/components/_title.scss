@@ -1,0 +1,15 @@
+.title {
+  font-size: inherit;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  &--mode-light {
+    margin-bottom: 20px;
+    color: var(--color-text-white);
+  }
+
+  &--margin {
+    margin-bottom: 10px;
+  }
+}

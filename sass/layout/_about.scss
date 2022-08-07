@@ -1,0 +1,30 @@
+.about {
+  @extend %section;
+}
+
+.about__container {
+  @extend %container;
+}
+
+.about__list {
+  @extend %list-style;
+}
+
+.about__item {
+  @include flexbasis($about-items);
+}
+
+.about__icon {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--color-bg-light);
+}
+
+.about__text {
+  line-height: 1.71;
+  color: var(--color-text-light);
+}

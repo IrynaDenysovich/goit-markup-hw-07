@@ -1,0 +1,17 @@
+%section {
+  @include padding_up_down(94px, 94px);
+}
+
+%container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+%list-style {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $indent;
+}

@@ -1,0 +1,19 @@
+.footer {
+  @include padding_up_down(60px, 60px);
+  background-color: var(--color-bg-darck);
+}
+
+.footer__container {
+  @extend %container;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__contacts-address {
+  margin-right: 70px;
+}
+
+.footer__social-group {
+  margin-right: 93px;
+}
